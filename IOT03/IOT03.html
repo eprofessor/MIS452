@@ -128,21 +128,34 @@
                 <li>These steps are performed on the Raspberry Pi.</li>
 
                 <li>Using the File Manager, locate the file: &#39;homepage.html&#39; in the folder &#39;/var/www/html&#39;</li>
-                
 
-                <li>Right click &#39;homepage.html&#39; and &#39;open with&#39; the Text Editor program.<br />               
-                    <p>
-                        <a href="EditHomepage.PNG" class="img-responsive img-rounded" target="popup" onclick="window.open('EditHomepage.PNG', 'popup'); return false;">
-                            <img src="EditHomepage.PNG" width="300" alt="WaveMon functions" class="img-responsive img-responsive" /></a>Edit Homepage<br />
-                    </p>
+                <li>In the terminal window do the following to modify the homepage.html file: <br />
+                    <code>cd Desktop</code> then press Enter<br />
+                    <code>sudo nano homepage.html</code>then press Enter, and you are in superuser(su) edit mode<br />
                 </li>
 
-                <li>From the menu, choose File&gt; Save As and save as &#39;homepage2.html&#39;</li>
 
                 <li>Add this html code after the opening &lt;body&gt; tag:<br />
                   <code>  &nbsp;&lt;h1&gt;Enter Your Name Here&lt;/h1&gt;</code></li>
 
                 <li>In the &lt;iframe&gt; tag, change the &#39;src&#39; property of the webpage from &#39;winona.edu&#39; to &#39;https://m.cnn.com&#39;</li>
+                
+
+                <li>
+                            
+                    <p>
+                        <a href="EditHomepage.PNG" class="img-responsive img-rounded" target="popup" onclick="window.open('EditHomepage.PNG', 'popup'); return false;">
+                            <img src="EditHomepage.PNG" width="300" alt="edit homepage" class="img-responsive img-responsive" /></a>Edit Homepage<br />
+                    </p>
+                </li>
+
+                <li>Press the &#39;Ctrl+X&#39; keys, then press &#39;y&#39; and then press &#39;Enter&#39; <br />
+                    In the &#39;File Name to Write&#39; row, enter <br />
+                    <code>/var/www/html/homepage2.html</code><br />
+                    and then press enter.<br />
+                    When asked to save file under a different name, press 
+                    &#39;y&#39;
+                </li>
 
             </ol>
             <hr />
